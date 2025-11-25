@@ -1,0 +1,36 @@
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+bin/launcher
+bin/emulator
+bin/emulator-gui
+bin/vm64
+bin/imggen
+
+# Dependencies
+.vscode/
+.idea/
+*.sublime-*
+
+# Large files
+*.iso
+*.qcow2
+
+# Directories
+isos/
+qemu-images/
+
+# IDE
+*.swp
+*.swo
+.vscode/settings.json
